@@ -33,3 +33,17 @@ public class Modulus {
         System.out.printIn("remainder =" + remainder);
     }
 }
+
+public class Division {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+
+        if (b != 0) {
+            int result = a / b;
+            System.out.println("Result = " + result);
+        } else {
+            System.out.println("Cannot divide by zero");
+        }
+    }
+}
