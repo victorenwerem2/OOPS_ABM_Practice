@@ -26,11 +26,11 @@ public class Multiplication {
 }
 
 public class Modulus {
-    public static void main(String{} args) {
+    public static void main(String[] args) {
         int a = 10;
         int b = 5;
         int remainder = a % b;
-        System.out.printIn("remainder =" + remainder);
+        System.out.println("Remainder = " + remainder);
     }
 }
 
